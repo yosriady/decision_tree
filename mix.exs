@@ -27,7 +27,7 @@ defmodule DecisionTree.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:statistics, "~> 0.4.0"},
+    [{:math, "~> 0.2.0"},
      {:ex_doc, "~> 0.11", only: :dev},
      {:earmark, "~> 0.1", only: :dev},
      {:dialyxir, "~> 0.3", only: [:dev]}]
